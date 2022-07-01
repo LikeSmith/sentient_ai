@@ -1,0 +1,17 @@
+/*
+ * kcomms.h
+ *
+ * Project: KComms
+ * Author: Kyle Crandall <crandalk@gmail.com>
+ * Date: FEBRUARY 2022
+ * 
+ * Master config header for kcomms
+ */
+
+#ifndef __SENTIENTAI__
+#define __SENTIENTAI__
+
+#define SentientAI_VERSION_MAJOR @SentientAI_VERSION_MAJOR@
+#define SentientAI_VERSION_MINOR @SentientAI_VERSION_MINOR@
+
+#endif
