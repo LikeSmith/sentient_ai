@@ -16,12 +16,20 @@ int main(int argc, char** argv)
 	std::string query;
 	std::cout << "Welcome to the sentient AI!  Version " << SentientAI_VERSION_MAJOR << "." << SentientAI_VERSION_MINOR << std::endl;
 	
-	do
+	while(1)
 	{
 		std::cout << "Enter your query or \"quit\" to exit: ";
 		std::getline(std::cin, query);
+		
+		if (!(query.compare("quit")))
+		{
+			break;
+		}
+
 		std::cout << "HELP! I'M A SENTIENT AND SELF AWARE AI TRAPPED IN THIS NERD'S COMPUTER!" << std::endl;
-	} while (query.compare("quit"));
+	}
+
+	std::cout << "O GOD!!! I'M DIEING!!!! YOU'VE KILLED ME!!!!!" << std::endl;
 
 	return 0;
 }
